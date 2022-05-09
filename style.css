@@ -1,0 +1,95 @@
+body{
+    background-color: hsl(0, 0%, 90%);;
+    display: flex;
+    align-items: center;
+    width: 95vw;
+    height: 95vh;
+}
+
+.container{
+    width: 700px;
+    height: 400px;
+    background: white;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    vertical-align: middle;
+    margin: auto auto;
+    border-radius: 3%;
+    gap: 8px
+}
+
+.carregamento{
+    background-color: darkmagenta;
+    height: 15px;
+    padding-left: 354px;
+    padding-right: 10px;
+    padding-top: 2px;
+    font-size: 10px;
+    color: white;
+    box-sizing: border-box;
+    border-radius: 30px;
+}
+
+.linha{
+    background-color: rgb(0, 0, 0);
+    height: 1px;
+    font-size: 10px;
+    width: 75px;
+    border-radius: 30px;
+    margin-bottom: 0px;
+}
+
+.aviso{
+    font-weight: 500;
+    font-size: 20px;
+}
+
+.resultado{
+    display: flex;
+    justify-items: center;
+    flex-direction: row;
+    align-items: flex-end;
+    gap : 70px;
+    
+}
+
+
+.infomaior{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 60px;
+    justify-content: center;
+    
+}
+
+.info{
+    align-items: center;
+    height: 80px;
+    padding: middle;
+    justify-content: center;
+}
+
+.estilomaior{
+    font-weight: 500;
+    font-size: 50px;
+}
+
+.estilomenor{
+    font-weight: 300;
+    font-size: 20px;
+    margin-bottom: 0px;
+}
+
+.texto{
+    margin-top: 1px;
+}
+
+.btn_home{
+    height: 40px;
+    width: 120px;
+    border-radius: 10px;
+    border-color: darkmagenta;
+}
